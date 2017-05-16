@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle spell-check-languagetool",
+        "command": "spell-check-languagetool:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "spell-check-languagetool",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "spell-check-languagetool:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
