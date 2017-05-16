@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle spell-check-languagetool",
-        "command": "spell-check-languagetool:toggle"
+        "label": "Check with spell-check-languagetool",
+        "command": "spell-check-languagetool:check"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "spell-check-languagetool",
+          "label": "Spell Check LanguageTool",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "spell-check-languagetool:toggle"
+              "label": "Check",
+              "command": "spell-check-languagetool:check"
             }
           ]
         }

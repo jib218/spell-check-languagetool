@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-l": "spell-check-languagetool:toggle"
+    "ctrl-alt-l": "spell-check-languagetool:check"
   }
 }
